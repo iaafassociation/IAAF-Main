@@ -96,7 +96,7 @@ export default function Footer() {
         <p className="mt-2">
           {t("footer.madeBy")}{" "}
           <span className="font-black text-sm max-md:text-xs text-[#9038d8]">
-            <a href="https://devlab-tech.com" target="_blank">
+            <a href="https://www.devlab-tech.com" target="_blank">
               DevLab
             </a>
           </span>
