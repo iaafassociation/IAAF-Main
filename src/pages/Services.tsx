@@ -1,10 +1,12 @@
 // Imports
 import { useState } from "react";
-import Complaints from "@/components/sections/Complaints";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 import { string } from "yup";
 import toast from "react-hot-toast";
+
+import Works from "@/components/sections/Works";
+import Complaints from "@/components/sections/Complaints";
 
 const variant = {
   hide: {},
@@ -202,6 +204,7 @@ export default function Services() {
           </div>
         </motion.div>
       </section>
+      <Works />
       <Complaints />
     </>
   );
